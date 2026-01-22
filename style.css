@@ -93,3 +93,155 @@ body {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
+/* Ecosystem Section */
+.ecosystem {
+  padding: 80px 0;
+  background-color: #ffffff;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  color: #333;
+}
+
+.ecosystem .container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Grid system */
+.ecosystem .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ecosystem .between {
+  justify-content: space-between;
+}
+
+.ecosystem .middle {
+  align-items: center;
+}
+
+.ecosystem .five.columns {
+  flex: 0 0 42%;
+}
+
+.ecosystem .seven.columns {
+  flex: 0 0 56%;
+}
+
+/* Headings */
+.ecosystem h2 {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  color: #1a1a1a;
+}
+
+.ecosystem h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #1a1a1a;
+}
+
+/* Why us blocks */
+.why-us-section {
+  margin-bottom: 25px;
+}
+
+.why-us-section p {
+  font-size: 15px;
+  line-height: 1.7;
+  color: #555;
+  margin: 0;
+}
+
+.client-count,
+.aum-value {
+  font-weight: 600;
+  color: #000;
+}
+
+/* Links */
+.ecosystem a {
+  color: #387ed1;
+  text-decoration: none;
+}
+
+.ecosystem a:hover {
+  text-decoration: underline;
+}
+
+/* Right side image */
+.ecosystem-image {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Center text */
+.text-center {
+  text-align: center;
+}
+
+/* Action links */
+.ecosystem p.text-center {
+  margin-top: 20px;
+}
+
+.ecosystem p.text-center a {
+  margin: 0 12px;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.demo-link {
+  color: #555;
+}
+
+/* Press strip */
+.press-strip {
+  margin-top: 60px;
+  padding-top: 30px;
+  border-top: 1px solid #eee;
+}
+
+.press-strip img {
+  max-width: 90%;
+  height: auto;
+  opacity: 0.9;
+}
+
+/* Responsive styles */
+@media (max-width: 900px) {
+  .ecosystem .five.columns,
+  .ecosystem .seven.columns {
+    flex: 0 0 100%;
+  }
+
+  .ecosystem h2 {
+    text-align: center;
+  }
+
+  .ecosystem .five.columns {
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 600px) {
+  .ecosystem {
+    padding: 60px 0;
+  }
+
+  .ecosystem h2 {
+    font-size: 26px;
+  }
+
+  .ecosystem h3 {
+    font-size: 16px;
+  }
+
+  .why-us-section p {
+    font-size: 14px;
+  }
+}
